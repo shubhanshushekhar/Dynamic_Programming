@@ -17,4 +17,5 @@ int main()
    vector< pair<int,int>  > val(n);
    for(i=0;i<n;i++) cin >> val[i].first >> val[i].second;
    cout << knapsack(val,max_wt, 0);
+
 }
